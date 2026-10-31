@@ -26,14 +26,3 @@ void	*ft_memset(void *s, int c, size_t size)
 	}
 	return (s);
 }
-/*
-int main(void)
-{
-    int a = 1337;
-    char *p = (char *)&a;
-    ft_memset(p + 0, 199, 1);
-    ft_memset(p + 1, 250, 1);
-    ft_memset(p + 2, 255, 1);
-    ft_memset(p + 3, 255, 1);
-    printf("%d\n", a);
-}*/
